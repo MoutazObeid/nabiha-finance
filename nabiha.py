@@ -19,4 +19,10 @@ Expenses = Savings + Rent + Electricity
 print("The total amount of the expenses: "+str(Expenses))
 
 Remainder = Salary-Expenses
-print("The Remainder from salary is: "+str(Remainder))
+print("The Remainder of salary is: "+str(Remainder))
+
+Yrent = Rent*12
+Yelectricity = Electricity*12
+Yestimatedcost = Yrent + Yelectricity
+print("The yearly estimated cost for the rent and electricity is: "+str(Yestimatedcost))
+
