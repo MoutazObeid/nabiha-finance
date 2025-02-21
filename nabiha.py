@@ -26,3 +26,6 @@ Yelectricity = Electricity*12
 Yestimatedcost = Yrent + Yelectricity
 print("The yearly estimated cost for the rent and electricity is: "+str(Yestimatedcost))
 
+SalaryPower2 = Salary**2
+print("The power 2 salary is "+str(SalaryPower2)+" Just for fun")
+
