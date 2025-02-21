@@ -17,3 +17,6 @@ print("The amount of savings is: "+str(Electricity))
 
 Expenses = Savings + Rent + Electricity
 print("The total amount of the expenses: "+str(Expenses))
+
+Remainder = Salary-Expenses
+print("The Remainder from salary is: "+str(Remainder))
