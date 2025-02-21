@@ -29,3 +29,9 @@ print("The yearly estimated cost for the rent and electricity is: "+str(Yestimat
 SalaryPower2 = Salary**2
 print("The power 2 salary is "+str(SalaryPower2)+" Just for fun")
 
+RandomAmount = int(input("Please enter the additional random amount: "))
+modulo =   RandomAmount % Savings
+print("The amount should be left after dividing by the total saving is: "+str(modulo))
+
+
+
